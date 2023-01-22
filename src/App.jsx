@@ -7,6 +7,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Splash_screen from "./pages/Splash_screen";
 import Onboarding1 from "./pages/Onboarding_1";
+import Onboarding2 from "./pages/Onboarding_2";
+import Onboarding3 from "./pages/Onboarding_3";
+import Get_started from "./pages/Get_started";
 
 export default function App() {
   return (
@@ -14,6 +17,10 @@ export default function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/splash-screen" element ={<Splash_screen/>}/>
         <Route path="/onboarding1" element ={<Onboarding1/>}/>
+        <Route path="/onboarding2" element ={<Onboarding2/>}/>
+        <Route path="/onboarding3" element ={<Onboarding3/>}/>
+        <Route path="/get-started" element ={<Get_started/>}/>
+
       </Routes>
   );
 }
