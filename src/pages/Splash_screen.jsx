@@ -21,9 +21,9 @@ export default function Splash_screen() {
             />
           </svg>
         </span>
-        <section className="relative text-[#A3A3A3]">
+        <section className="relative text-customGray">
           <div className="mb-5 flex justify-center">RKFD</div>
-          <div className="border-b-4 border-[#2D2D2D] mb-2 w-5/12 mx-auto rounded"></div>
+          <div className="border-b-4 border-customDark mb-2 w-5/12 mx-auto rounded"></div>
         </section>
       </section>
     </>

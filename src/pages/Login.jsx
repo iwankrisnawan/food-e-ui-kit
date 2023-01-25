@@ -60,8 +60,8 @@ export default function Login() {
             </span>
           </div>
         </section>
-        <section className="relative text-[#A3A3A3]">
-          <div className="mb-5 py-2 flex justify-center bg-primaryDefault w-10/12 mx-auto rounded-full text-[#FFFFFF]">
+        <section className="relative text-customGray">
+          <div className="mb-5 py-2 flex justify-center bg-primaryDefault w-10/12 mx-auto rounded-full text-white">
             LOGIN
           </div>
           <div className="flex justify-center mb-5">

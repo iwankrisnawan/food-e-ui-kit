@@ -59,7 +59,7 @@ export default function Reset_password() {
               </span>
               <input
                 type="text"
-                className="w-full rounded-full bg-customLight pl-4 py-2 w-full"
+                className="w-full rounded-full bg-customLight pl-4 py-2"
                 placeholder="Password"
                 id="password"
               />

@@ -21,7 +21,7 @@ export default function Onboarding3() {
           </svg>
         </div>
         <div className="flex justify-center"></div>
-        <section className="relative text-[#A3A3A3]">
+        <section className="relative text-customGray">
           <div className="w-10/12 mx-auto mb-5">
             <p className="uppercase text-2xl text-white">
               grab the <br />
@@ -35,7 +35,7 @@ export default function Onboarding3() {
             </p>
           </div>
 
-          <div className="mb-5 py-2 flex justify-center bg-primaryLight w-10/12 mx-auto rounded-full text-[#FFFFFF]">
+          <div className="mb-5 py-2 flex justify-center bg-primaryLight w-10/12 mx-auto rounded-full text-white">
             GET STARTED
           </div>
           <div className="border-b-4 border-white mb-2 w-5/12 mx-auto rounded"></div>

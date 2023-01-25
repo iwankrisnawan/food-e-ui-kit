@@ -42,11 +42,11 @@ export default function Forgot_password() {
               id="email"
             />
           </div>
-          <div className="mb-5 py-2 flex justify-center bg-primaryDefault mx-auto rounded-full text-[#FFFFFF]">
+          <div className="mb-5 py-2 flex justify-center bg-primaryDefault mx-auto rounded-full text-white">
             LOGIN
           </div>
         </section>
-        <section className="relative text-[#A3A3A3]">
+        <section className="relative text-customGray">
         </section>
       </section>
     </>
