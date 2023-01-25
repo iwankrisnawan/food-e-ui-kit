@@ -14,6 +14,8 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Forgot_password from "./pages/Forgot_password";
 import Email_sent from "./pages/Email_sent";
+import Reset_password from "./pages/Reset_password";
+import Address_setup from "./pages/Address_setup";
 
 export default function App() {
   return (
@@ -28,6 +30,8 @@ export default function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/forgot-password" element={<Forgot_password />} />
       <Route path="/email-sent" element={<Email_sent />} />
+      <Route path="/reset-password" element={<Reset_password />} />
+      <Route path="/address-setup" element={<Address_setup />} />
     </Routes>
   );
 }
