@@ -285,8 +285,8 @@ export default function Home() {
             <h3 className="mb-3 text-xs font-semibold">POPULAR LOCATION</h3>
           </div>
         </section>
-        <section className="relative text-customGray w-10/12 mx-auto bg-white">
-          <div className="flex justify-between my-3">
+        <section className="fixed text-customGray w-full bg-white bottom-0">
+          <div className="flex justify-between my-3 w-10/12 mx-auto">
             <svg
               width="18"
               height="18"
