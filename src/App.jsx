@@ -18,6 +18,7 @@ import Reset_password from "./pages/Reset_password";
 import Address_setup from "./pages/Address_setup";
 import Payment_setup from "./pages/Payment_setup";
 import Product_detail from "./pages/Product_detail";
+import Search from "./pages/Search";
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
       <Route path="/address-setup" element={<Address_setup />} />
       <Route path="/payment-setup" element={<Payment_setup />} />
       <Route path="/product-detail" element={<Product_detail />} />
+      <Route path="/search" element={<Search />} />
     </Routes>
   );
 }
