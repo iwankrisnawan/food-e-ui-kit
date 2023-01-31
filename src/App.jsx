@@ -19,6 +19,9 @@ import Address_setup from "./pages/Address_setup";
 import Payment_setup from "./pages/Payment_setup";
 import Product_detail from "./pages/Product_detail";
 import Search from "./pages/Search";
+import Search_input from "./pages/Search_input";
+import Search_active from "./pages/Search_active";
+import Search_category from "./pages/Search_category";
 
 export default function App() {
   return (
@@ -38,6 +41,9 @@ export default function App() {
       <Route path="/payment-setup" element={<Payment_setup />} />
       <Route path="/product-detail" element={<Product_detail />} />
       <Route path="/search" element={<Search />} />
+      <Route path="/search-input" element={<Search_input />} />
+      <Route path="/search-active" element={<Search_active />} />
+      <Route path="/search-category" element={<Search_category />} />
     </Routes>
   );
 }
