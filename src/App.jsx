@@ -22,6 +22,8 @@ import Search from "./pages/Search";
 import Search_input from "./pages/Search_input";
 import Search_active from "./pages/Search_active";
 import Search_category from "./pages/Search_category";
+import Search_empty from "./pages/Search_empty";
+import Basket from "./pages/Basket";
 
 export default function App() {
   return (
@@ -44,6 +46,8 @@ export default function App() {
       <Route path="/search-input" element={<Search_input />} />
       <Route path="/search-active" element={<Search_active />} />
       <Route path="/search-category" element={<Search_category />} />
+      <Route path="/search-empty" element={<Search_empty />} />
+      <Route path="/basket" element={<Basket />} />
     </Routes>
   );
 }
