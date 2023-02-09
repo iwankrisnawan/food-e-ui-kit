@@ -25,6 +25,7 @@ import Search_category from "./pages/Search_category";
 import Search_empty from "./pages/Search_empty";
 import Basket from "./pages/Basket";
 import Liked from "./pages/Liked";
+import Checkout from "./pages/Checkout";
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
       <Route path="/search-empty" element={<Search_empty />} />
       <Route path="/basket" element={<Basket />} />
       <Route path="/liked" element={<Liked />} />
+      <Route path="/checkout" element={<Checkout />} />
     </Routes>
   );
 }
