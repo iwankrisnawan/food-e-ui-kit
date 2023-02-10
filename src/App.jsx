@@ -26,7 +26,8 @@ import Search_empty from "./pages/Search_empty";
 import Basket from "./pages/Basket";
 import Liked from "./pages/Liked";
 import Checkout from "./pages/Checkout";
-
+import Confirm_order1 from "./pages/Confirm_order_1";
+import Confirm_order2 from "./pages/Confirm_order_2";
 export default function App() {
   return (
     <Routes>
@@ -52,6 +53,8 @@ export default function App() {
       <Route path="/basket" element={<Basket />} />
       <Route path="/liked" element={<Liked />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="/confirm-order1" element={<Confirm_order1 />} />
+      <Route path="/confirm-order2" element={<Confirm_order2 />} />
     </Routes>
   );
 }
