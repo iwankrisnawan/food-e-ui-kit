@@ -28,6 +28,8 @@ import Liked from "./pages/Liked";
 import Checkout from "./pages/Checkout";
 import Confirm_order1 from "./pages/Confirm_order_1";
 import Confirm_order2 from "./pages/Confirm_order_2";
+
+import Main from "./pages/Main";
 export default function App() {
   return (
     <Routes>
@@ -55,6 +57,7 @@ export default function App() {
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/confirm-order1" element={<Confirm_order1 />} />
       <Route path="/confirm-order2" element={<Confirm_order2 />} />
+      <Route path="/main1" element={<Main/>}/>
     </Routes>
   );
 }
